@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no"
+		/>
+		<title>Codar Website - MVP STUDIO</title>
+
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+		<!-- 
+        - CSS STYLESHEET LINK
+     -->
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/mvp-studio2.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+
+		<!-- 
+        - FONT AWESOME CDN LINK
+     -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+			integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<header>
+			<a href="#" class="logo">
+				<img src="img/header-logo.png" alt="codar logo" class="logo-img" />
+			</a>
+
+			<ul class="nav">
+				<li class="nav-list"><a href="index.html" class="nav-item">Home</a></li>
+				<li class="nav-list">
+					<a href="#" class="nav-item"
+						>Company <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__1">
+						<a href="aboutUs.html">About Us</a>
+						<a href="people.html">Our People</a>
+						<a href="career.html">Careers</a>
+					</div>
+				</li>
+				<li class="nav-list">
+					<a href="startups.html" class="nav-item">Startups</a>
+				</li>
+
+				<li class="nav-list">
+					<a href="#" class="nav-item"
+						>Apply <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__2">
+						<a href="mvp-studio2.html">Apply as Startups</a>
+						<a href="#">Apply as Founders</a>
+					</div>
+				</li>
+				<li class="nav-list">
+					<a href="#" class="nav-item">Community</a>
+				</li>
+				<li class="nav-list">
+					<a href="#" class="nav-item">Events</a>
+				</li>
+
+				<li class="nav-list">
+					<a href="#" class="nav-item">Blogs</a>
+				</li>
+			</ul>
+
+			<!-- NAV FOR SMALL SCREENS -->
+			<ul class="nav-mobile">
+				<li class="nav__mobile-list">
+					<a href="index.html" class="nav__mobile-item">Home</a>
+				</li>
+				<li class="nav__mobile-list menu-item-has-children">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu"
+						>Company <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__1">
+						<a href="aboutUs.html">About Us</a>
+						<a href="people.html">Our People</a>
+						<a href="career.html">Careers</a>
+					</div>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="startups.html" class="nav__mobile-item">Startups</a>
+				</li>
+
+				<li class="nav__mobile-list menu-item-has-children">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu"
+						>Apply <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__2">
+						<a href="mvp-studio2.html">Apply as Startups</a>
+						<a href="#">Apply as Founders</a>
+					</div>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="#" class="nav__mobile-item">Community</a>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu">Events</a>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu">Blogs</a>
+				</li>
+			</ul>
+
+			<div class="menubar">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+		</header>
+
+		<section class="hero-container">
+			<img
+				src="img/about-heroGlobe.png"
+				alt="image"
+				class="hero-globe"
+				data-aos="fade-right"
+				data-aos-duration="2000"
+			/>
+			<div class="hero-left" data-aos="fade-right" data-aos-duration="2000">
+				<img src="img/stroke.svg" alt="stroke image" class="hero-stroke" />
+
+				<h1>Who Can Apply</h1>
+
+				<p>
+					Early stage founders with technology driven ideas, MVP or working
+					product in any business category.
+					<br />
+					<br />
+					Applicants can only choose one pipeline program depending on the stage
+					you are in with your startup idea.
+				</p>
+			</div>
+
+			<div class="hero-right" data-aos="fade-left" data-aos-duration="2000">
+				<img src="img/mvpImg.png" alt="Hero image" />
+			</div>
+		</section>
+
+		<!-- MVP SECTION -->
+
+		<section class="mvp__diagram-container">
+			<div class="mvp__content-wrapper">
+				<p data-aos="fade-up" data-aos-duration="2000">
+					<strong>Idea Stage:</strong> You have an idea, we can build for you
+					from scratch.
+				</p>
+
+				<p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
+					<strong>Product Stage:</strong> You have a product (mainly an
+					MVP-Minimum Viable Product), we will help you scale to 1000 users with
+					20% monthly recurring revenue.
+				</p>
+
+				<p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000">
+					<strong>Market Expansion:</strong> You have a product that is
+					generating revenue with a product market-fit, we will provide you
+					funding up to $50k and give you other operational and fundraising
+					support valued at another $50k totaling our investment at $100k.
+				</p>
+			</div>
+
+			<div class="mvp__connect">
+				<div class="diagram">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="900"
+						height="936"
+						viewBox="0 0 900 936"
+						fill="none"
+					>
+						<path
+							d="M553 23.9996C664 -60.5002 872.999 107 820.25 258.606M654.5 932C781 948.5 963.543 892.172 876.5 680.5M266.001 837.499C3.49908 784.5 -138.001 317.5 199.5 163.999"
+							stroke="black"
+							stroke-width="1.41438"
+							stroke-dasharray="12 12"
+						/>
+					</svg>
+				</div>
+
+				<div class="build" data-aos="fade-up" data-aos-duration="2000">
+					<img src="img/Group 770.svg" alt="" class="mvp__img" />
+					<h3 class="text">Build</h3>
+					<p>From scratch program</p>
+				</div>
+
+				<div class="scale" data-aos="fade-left" data-aos-duration="2000">
+					<img src="img/Group 773.svg" alt="" class="mvp__img" />
+					<h3 class="text">Scale</h3>
+					<p>
+						to 1000 users with 20% Monthly <br />
+						Recurring Revenue Program
+					</p>
+				</div>
+
+				<div class="fund" data-aos="fade-up" data-aos-duration="2000">
+					<div class="relative">
+						<img src="img/Ellipse 52.svg" alt="" class="mvp__img" />
+						<span class="fund-dollar">$</span>
+					</div>
+					<h3 class="text">Fund</h3>
+					<p>
+						up to $50k cash and $50k <br />
+						support program
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="roadmap__container">
+			<p
+				class="roadmap__heading-text"
+				data-aos="zoom-in"
+				data-aos-duration="2000"
+			>
+				Program <span class="roadmap__span">Roadmap</span>
+			</p>
+
+			<div class="flex__roadmap-container">
+				<div
+					class="roadmap__item"
+					data-aos="fade-right"
+					data-aos-duration="2000"
+				>
+					<div class="roadmap__border">
+						<h3>Call For Applications</h3>
+						<p>2nd of January 2023</p>
+					</div>
+				</div>
+				<div
+					class="roadmap__item"
+					data-aos="fade-left"
+					data-aos-duration="2000"
+				>
+					<div class="roadmap__border">
+						<h3>Call For Applications</h3>
+						<p>2nd of January 2023</p>
+					</div>
+				</div>
+				<div
+					class="roadmap__item"
+					class="roadmap__item"
+					data-aos="fade-right"
+					data-aos-duration="2000"
+					data-aos-delay="500"
+				>
+					<div class="roadmap__border">
+						<h3>Call For Applications</h3>
+						<p>2nd of January 2023</p>
+					</div>
+				</div>
+				<div
+					class="roadmap__item"
+					data-aos="fade-left"
+					data-aos-duration="2000"
+					data-aos-delay="500"
+				>
+					<div class="roadmap__border">
+						<h3>Call For Applications</h3>
+						<p>2nd of January 2023</p>
+					</div>
+				</div>
+				<div
+					class="roadmap__item"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="1000"
+				>
+					<div class="roadmap__border">
+						<h3>Call For Applications</h3>
+						<p>2nd of January 2023</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="focus__container">
+			<p
+				class="roadmap__heading-text"
+				data-aos="zoom-in"
+				data-aos-duration="2000"
+			>
+				Sector <span class="roadmap__span">Focus</span>
+			</p>
+
+			<div class="grid__focus-container">
+				<div class="focus__item" data-aos="fade-up" data-aos-duration="2000">
+					<img src="img/ecommerce.svg" alt="" />
+					<h4>E-Commerce</h4>
+				</div>
+				<div
+					class="focus__item"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="200"
+				>
+					<img src="img/edtech.svg" alt="" />
+					<h4>EdTech</h4>
+				</div>
+				<div
+					class="focus__item"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="400"
+				>
+					<img src="img/manufacture.svg" alt="" />
+					<h4>Manufacturing</h4>
+				</div>
+				<div
+					class="focus__item"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="600"
+				>
+					<img src="img/sport.svg" alt="" />
+					<h4>Sports</h4>
+				</div>
+				<div
+					class="focus__item"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="800"
+				>
+					<img src="img/iot.svg" alt="" />
+					<h4>IOT</h4>
+				</div>
+				<div
+					class="focus__item"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="1000"
+				>
+					<img src="img/utility.svg" alt="" />
+					<h4>Utility</h4>
+				</div>
+				<div
+					class="focus__item"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="1200"
+				>
+					<img src="img/health.svg" alt="" />
+					<h4>Health Care</h4>
+				</div>
+				<div
+					class="focus__item"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="1400"
+				>
+					<img src="img/agric.svg" alt="" />
+					<h4>Agriculture</h4>
+				</div>
+			</div>
+
+			<div class="focus__content" data-aos="zoom-in" data-aos-duration="2000">
+				<p class="focus__heading-text">
+					Got an <span class="focus__span">idea</span> you think can make an
+					impact in African Technology Ecosystem ?
+				</p>
+
+				<p class="focus__text">
+					We introduce you to top investors to raise external <br />
+					funding, create growth hacking strategies and
+				</p>
+
+				<a href="build.html" class="focus__link">Apply</a>
+			</div>
+		</section>
+
+		<!-- MVP SECTION ENDS HERE -->
+
+		<footer>
+			<div class="footer__contents">
+				<div class="footer__left">
+					<a href="#" class="logo">
+						<img src="img/footer-logo.png" alt="codar logo" class="logo-img" />
+					</a>
+
+					<div class="footer__address">
+						<h5 class="address__heading">offices</h5>
+						<p class="address__country">
+							Lagos, Nigeria
+							<img src="img/nigeria.png" alt="image" class="nigeria__img" />
+						</p>
+
+						<p class="address__location">
+							5 Eleruwa street, Wemabod Estate <br />
+							Ikeja 100271, Lagos
+						</p>
+
+						<p class="address__email">contact@kwe4.com</p>
+
+						<div class="address__icons">
+							<i class="fa-brands fa-linkedin-in"></i>
+							<i class="fa-brands fa-instagram"></i>
+							<i class="fa-brands fa-x-twitter"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__right">
+					<p class="subscribe">Subscribe to Our Newsletter</p>
+
+					<form class="footer__form">
+						<div class="form__text--input">
+							<input
+								type="text"
+								placeholder="First Name"
+								class="form__firstname"
+							/>
+							<input
+								type="text"
+								placeholder="Last Name"
+								class="form__lastname"
+							/>
+						</div>
+						<div class="form__email-wrapper">
+							<input
+								type="end"
+								placeholder="Enter Your Email"
+								class="form__email"
+							/>
+						</div>
+
+						<button class="form__btn">Subscribe</button>
+					</form>
+				</div>
+				<img src="img/stroke.svg" alt="stroke" class="footer-stroke" />
+			</div>
+
+			<p class="footer__copyright">
+				&copy; 2023 KWE4 AFRICA LTD. All Rights Reserved.
+			</p>
+		</footer>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				once: true,
+			});
+		</script>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>

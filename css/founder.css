@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700;800&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Sen", sans-serif;
+}
+
+body {
+	background-color: #fff;
+	overflow-x: hidden;
+}
+
+img {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Sen", sans-serif;
+}
+
+/* HERO SECTION */
+
+.hero-container {
+	background: #f6efe3;
+	height: 80vh;
+	display: flex;
+	position: relative;
+}
+
+.hero-globe {
+	position: absolute;
+	width: 200px;
+	height: 150px;
+	left: 30%;
+	top: 5%;
+	z-index: 2;
+}
+
+.hero-left {
+	padding: 0 5rem;
+	align-self: center;
+	flex-basis: 50%;
+	position: relative;
+	z-index: 3;
+}
+
+.hero-left .hero-stroke {
+	position: absolute;
+	width: 80px;
+	z-index: -1;
+	right: 20%;
+	top: 20%;
+}
+
+.hero-left h1 {
+	font-size: 6rem;
+	font-weight: 900;
+	margin-bottom: 1.5rem;
+	word-spacing: 1rem;
+}
+
+.hero-left p {
+	font-size: 2.5rem;
+	color: #2e2c2c;
+	margin-bottom: 2.5rem;
+	line-height: 1.6;
+}
+
+.hero-right {
+	flex-basis: 50%;
+	margin-left: auto;
+}
+
+/* FOUNDER CONTAINER */
+
+.founder__container {
+	padding: 5rem;
+	background: #fff;
+}
+
+.founder__gallery-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.founder__gallery {
+	flex-basis: 40%;
+	margin-bottom: 4rem;
+}
+
+.founder__gallery-head {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+
+.founder__name {
+	font-size: 1.8rem;
+}
+
+.founder__role {
+	font-size: 1.3rem;
+}
+
+.gallery__img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.founder__body-1 {
+	border-radius: 10px;
+	background: #beffda;
+}
+
+.founder__body-2 {
+	border-radius: 10px;
+	background: rgba(32, 62, 232, 0.28);
+}
+
+.founder__body-3 {
+	border-radius: 10px;
+	background: rgba(255, 238, 89, 0.52);
+}
+
+.founder__body {
+	padding: 4rem;
+}
+
+.founder__body p {
+	font-size: 2.5rem;
+	line-height: 1.7;
+	font-weight: 300;
+}
+
+@media screen and (max-width: 576px) {
+	.hero-container {
+		flex-direction: column-reverse;
+		height: initial;
+		padding: 2rem 1rem;
+	}
+
+	.hero-globe {
+		display: none;
+	}
+
+	.hero-left {
+		padding: 0 0rem;
+		align-self: initial;
+		/* max-width: 400px; */
+	}
+
+	.hero-left h1 {
+		font-size: 3.5rem;
+		margin-top: 1.5rem;
+	}
+
+	.founder__container {
+		padding: 5rem 2rem;
+		background: #fff;
+	}
+
+	.founder__gallery-container {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.founder__gallery {
+		flex-basis: 100%;
+		margin-bottom: 4rem;
+	}
+
+	.founder__gallery-head {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.hero-left h1 {
+		font-size: 3rem;
+		margin-bottom: 1rem;
+	}
+
+	.hero-left p {
+		font-size: 1.8rem;
+	}
+
+	.gallery__img {
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+	}
+
+	.founder__body {
+		padding: 2rem;
+	}
+
+	.founder__body p {
+		font-size: 1.8rem;
+		line-height: 1.5;
+		font-weight: 300;
+	}
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+	.hero-container {
+		height: 60vh;
+	}
+
+	.hero-globe {
+		display: none;
+	}
+
+	.hero-left {
+		padding: 5rem 2rem;
+	}
+
+	.founder__gallery-container {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.founder__gallery {
+		flex-basis: 100%;
+		margin-bottom: 4rem;
+	}
+
+	.founder__body p {
+		font-size: 1.8rem;
+		line-height: 1.7;
+		font-weight: 300;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.hero-container {
+		height: 60vh;
+	}
+
+	.hero-left {
+		padding: 5rem 3rem;
+	}
+
+	.hero-left h1 {
+		font-size: 4rem;
+		margin-bottom: 1rem;
+	}
+
+	.hero-left p {
+		font-size: 1.8rem;
+		margin-bottom: 2rem;
+		line-height: 1.5;
+	}
+
+	.founder__container {
+		padding: 5rem 3rem;
+		background: #fff;
+	}
+
+	.founder__gallery {
+		flex-basis: 45%;
+		margin-bottom: 4rem;
+	}
+
+	.founder__body {
+		padding: 4rem;
+	}
+
+	.founder__body p {
+		font-size: 2rem;
+		line-height: 1.7;
+		font-weight: 300;
+	}
+}

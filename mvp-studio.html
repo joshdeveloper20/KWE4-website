@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no"
+		/>
+		<title>Codar Website - MVP Page</title>
+
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+		<!-- 
+        - CSS STYLESHEET LINK
+     -->
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/mvp-studio.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+
+		<!-- 
+        - FONT AWESOME CDN LINK
+     -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+			integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- 
+			 - FONT FAMILY - AVENIR
+		 -->
+		<link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<a href="#" class="logo">
+				<img src="img/header-logo.png" alt="codar logo" class="logo-img" />
+			</a>
+
+			<ul class="nav">
+				<li class="nav-list"><a href="index.html" class="nav-item">Home</a></li>
+				<li class="nav-list">
+					<a href="#" class="nav-item"
+						>Company <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__1">
+						<a href="aboutUs.html">About Us</a>
+						<a href="people.html">Our People</a>
+						<a href="career.html">Careers</a>
+					</div>
+				</li>
+				<li class="nav-list">
+					<a href="startups.html" class="nav-item">Startups</a>
+				</li>
+
+				<li class="nav-list">
+					<a href="#" class="nav-item"
+						>Apply <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__2">
+						<a href="mvp-studio2.html">Apply as Startups</a>
+						<a href="#">Apply as Founders</a>
+					</div>
+				</li>
+				<li class="nav-list">
+					<a href="#" class="nav-item">Community</a>
+				</li>
+				<li class="nav-list">
+					<a href="#" class="nav-item">Events</a>
+				</li>
+
+				<li class="nav-list">
+					<a href="#" class="nav-item">Blogs</a>
+				</li>
+			</ul>
+
+			<!-- NAV FOR SMALL SCREENS -->
+			<ul class="nav-mobile">
+				<li class="nav__mobile-list">
+					<a href="index.html" class="nav__mobile-item">Home</a>
+				</li>
+				<li class="nav__mobile-list menu-item-has-children">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu"
+						>Company <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__1">
+						<a href="aboutUs.html">About Us</a>
+						<a href="people.html">Our People</a>
+						<a href="career.html">Careers</a>
+					</div>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="startups.html" class="nav__mobile-item">Startups</a>
+				</li>
+
+				<li class="nav__mobile-list menu-item-has-children">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu"
+						>Apply <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__2">
+						<a href="mvp-studio2.html">Apply as Startups</a>
+						<a href="#">Apply as Founders</a>
+					</div>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="#" class="nav__mobile-item">Community</a>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu">Events</a>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu">Blogs</a>
+				</li>
+			</ul>
+
+			<div class="menubar">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+		</header>
+
+		<!-- HERO SECTION -->
+		<section class="hero-container">
+			<img
+				src="img/about-heroGlobe.png"
+				alt="image"
+				class="hero-globe"
+				data-aos="fade-right"
+				data-aos-duration="2000"
+			/>
+			<div class="hero-left" data-aos="fade-right" data-aos-duration="2000">
+				<img src="img/stroke.svg" alt="stroke image" class="hero-stroke" />
+				<h1>We take ideas from Concepts to Companies</h1>
+
+				<p>
+					We create African startups that have a great chance of success and
+					make a positive impact worldwide.
+				</p>
+				<a href="#" class="hero__link">Build with us</a>
+			</div>
+
+			<div class="hero-right" data-aos="fade-left" data-aos-duration="2000">
+				<img src="img/mvp-heroImg.png" alt="Hero image" />
+			</div>
+		</section>
+		<!-- HERO SECTION ENDS HERE -->
+
+		<!-- MVP DIAGRAM -->
+		<section class="mvp__diagram-container">
+			<p class="mvp__heading-text" data-aos="zoom-in" data-aos-duration="2000">
+				From Idea to <span class="mvp__span">MVP</span>
+			</p>
+
+			<div
+				class="mvp__diagram"
+				data-aos="zoom-in"
+				data-aos-duration="2000"
+				data-aos-delay="500"
+			>
+				<img src="img/mvp-diagram.png" alt="" />
+			</div>
+		</section>
+		<!-- MVP DIAGRAM ENDS HERE -->
+
+		<section class="build__container">
+			<p class="mvp__heading-text" data-aos="zoom-in" data-aos-duration="2000">
+				How we <span class="mvp__span">Build</span>
+			</p>
+			<div class="grid__formula-container">
+				<div class="grid__content" data-aos="fade-up" data-aos-duration="2000">
+					<div class="border__line">
+						<div class="grid__content-title">Ideation</div>
+						<div class="grid__content-text">
+							We conduct extensive research to generate ideas and set the vision
+							for the startup or product.
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="grid__content"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="150"
+				>
+					<div class="border__line">
+						<div class="grid__content-title">Market Validation</div>
+						<div class="grid__content-text">
+							Together , we design the version of the product and engage with
+							target users to quickly confirm the idea and distribution method.
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="grid__content"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="300"
+				>
+					<div class="border__line">
+						<div class="grid__content-title">Creation</div>
+						<div class="grid__content-text">
+							We help you turn the idea into a functional, marketable and
+							investable product, recruit your first employees, build the
+							product fully and outline the go-to-market strategy.
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="grid__content"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="450"
+				>
+					<div class="border__line">
+						<div class="grid__content-title">Spinning out</div>
+						<div class="grid__content-text">
+							We help you conduct your beta testing, and robust growth hacking
+							that generate your initial users.
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="grid__content"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="600"
+				>
+					<div class="border__line">
+						<div class="grid__content-title">Scaling up</div>
+						<div class="grid__content-text">
+							We introduce you to top investors to raise external funding,
+							create growth hacking strategies and remain by your side as you
+							scale.
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="grid__content"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="750"
+				>
+					<div class="border__line">
+						<div class="grid__content-title">Exits</div>
+						<div class="grid__content-text">
+							We explore the best options of exit for our founders, where we
+							leverage mergers and acquisitions, stack sales or buyout.
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="grid__content"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="900"
+				>
+					<div class="border__line">
+						<div class="grid__content-title">Exits</div>
+						<div class="grid__content-text">
+							We explore the best options of exit for our founders, where we
+							leverage mergers and acquisitions, stack sales or buyout.
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="grid__content"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="1050"
+				>
+					<div class="border__line">
+						<div class="grid__content-title">Exits</div>
+						<div class="grid__content-text">
+							We explore the best options of exit for our founders, where we
+							leverage mergers and acquisitions, stack sales or buyout.
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="grid__content"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="1200"
+				>
+					<div class="border__line">
+						<div class="grid__content-title">Exits</div>
+						<div class="grid__content-text">
+							We explore the best options of exit for our founders, where we
+							leverage mergers and acquisitions, stack sales or buyout.
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="footer__contents">
+				<div class="footer__left">
+					<a href="#" class="logo">
+						<img src="img/footer-logo.png" alt="codar logo" class="logo-img" />
+					</a>
+
+					<div class="footer__address">
+						<h5 class="address__heading">offices</h5>
+						<p class="address__country">
+							Lagos, Nigeria
+							<img src="img/nigeria.png" alt="image" class="nigeria__img" />
+						</p>
+
+						<p class="address__location">
+							5 Eleruwa street, Wemabod Estate <br />
+							Ikeja 100271, Lagos
+						</p>
+
+						<p class="address__email">contact@kwe4.com</p>
+
+						<div class="address__icons">
+							<i class="fa-brands fa-linkedin-in"></i>
+							<i class="fa-brands fa-instagram"></i>
+							<i class="fa-brands fa-x-twitter"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__right">
+					<p class="subscribe">Subscribe to Our Newsletter</p>
+
+					<form class="footer__form">
+						<div class="form__text--input">
+							<input
+								type="text"
+								placeholder="First Name"
+								class="form__firstname"
+							/>
+							<input
+								type="text"
+								placeholder="Last Name"
+								class="form__lastname"
+							/>
+						</div>
+						<div class="form__email-wrapper">
+							<input
+								type="end"
+								placeholder="Enter Your Email"
+								class="form__email"
+							/>
+						</div>
+
+						<button class="form__btn">Subscribe</button>
+					</form>
+				</div>
+				<img src="img/stroke.svg" alt="stroke" class="footer-stroke" />
+			</div>
+
+			<p class="footer__copyright">
+				&copy; 2023 KWE4 AFRICA LTD. All Rights Reserved.
+			</p>
+		</footer>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				once: true,
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no"
+		/>
+		<title>Codar Website - About Us</title>
+
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+		<!-- 
+            - CSS STYLESHEET LINK
+         -->
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/about.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+
+		<!-- 
+            - FONT AWESOME CDN LINK
+         -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+			integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- 
+			 - FONT FAMILY - AVENIR
+		 -->
+		<link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<a href="#" class="logo">
+				<img src="img/header-logo.png" alt="codar logo" class="logo-img" />
+			</a>
+
+			<ul class="nav">
+				<li class="nav-list"><a href="index.html" class="nav-item">Home</a></li>
+				<li class="nav-list">
+					<a href="#" class="nav-item"
+						>Company <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__1">
+						<a href="aboutUs.html">About Us</a>
+						<a href="people.html">Our People</a>
+						<a href="career.html">Careers</a>
+					</div>
+				</li>
+				<li class="nav-list">
+					<a href="startups.html" class="nav-item">Startups</a>
+				</li>
+
+				<li class="nav-list">
+					<a href="#" class="nav-item"
+						>Apply <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__2">
+						<a href="mvp-studio2.html">Apply as Startups</a>
+						<a href="#">Apply as Founders</a>
+					</div>
+				</li>
+				<li class="nav-list">
+					<a href="#" class="nav-item">Community</a>
+				</li>
+				<li class="nav-list">
+					<a href="#" class="nav-item">Events</a>
+				</li>
+
+				<li class="nav-list">
+					<a href="#" class="nav-item">Blogs</a>
+				</li>
+			</ul>
+
+			<!-- NAV FOR SMALL SCREENS -->
+			<ul class="nav-mobile">
+				<li class="nav__mobile-list">
+					<a href="index.html" class="nav__mobile-item">Home</a>
+				</li>
+				<li class="nav__mobile-list menu-item-has-children">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu"
+						>Company <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__1">
+						<a href="aboutUs.html">About Us</a>
+						<a href="people.html">Our People</a>
+						<a href="career.html">Careers</a>
+					</div>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="startups.html" class="nav__mobile-item">Startups</a>
+				</li>
+
+				<li class="nav__mobile-list menu-item-has-children">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu"
+						>Apply <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__2">
+						<a href="mvp-studio2.html">Apply as Startups</a>
+						<a href="#">Apply as Founders</a>
+					</div>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="#" class="nav__mobile-item">Community</a>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu">Events</a>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu">Blogs</a>
+				</li>
+			</ul>
+
+			<div class="menubar">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+		</header>
+
+		<!-- HERO SECTION -->
+		<section class="hero-container">
+			<img src="img/about-heroGlobe.png" alt="" class="hero-globe" />
+			<div class="hero-left" data-aos="fade-right" data-aos-duration="2000">
+				<img src="img/stroke.svg" alt="stroke image" class="hero-stroke" />
+				<h1>Our Story</h1>
+
+				<p>
+					We groom promising African startups poised for global success and
+					positive influence. As a team, we architect every product iteration,
+					employing user-centric and market-centred design principles to
+					optimize the adoption of our products. Our mission is to empower
+					innovative ventures that resonate on a global scale.
+				</p>
+			</div>
+
+			<div class="hero-right" data-aos="fade-left" data-aos-duration="2000">
+				<img src="img/about-heroImg.png" alt="Hero image" />
+			</div>
+		</section>
+		<!-- HERO SECTION ENDS HERE -->
+
+		<!-- WHO ARE WE SECTION -->
+		<section class="about__us">
+			<div class="about__us-top">
+				<div
+					class="about__us-top-left"
+					data-aos="fade-right"
+					data-aos-duration="2000"
+				>
+					<img src="img/about-globeImg.png" alt="" />
+				</div>
+
+				<div
+					class="about__us-top-right"
+					data-aos="fade-left"
+					data-aos-duration="2000"
+				>
+					<p class="about__heading-text">
+						What <span class="about__span">We</span> Do
+					</p>
+
+					<p>
+						Our team continuously craft product iterations and engages with our
+						target audience to swiftly validate our concepts and optimize our
+						distribution strategies.
+					</p>
+
+					<p>
+						Much more than product design, our team build startups from the
+						ground up, determining their market appeal, business model and
+						corporate management. We manage startups from the stage of ideation
+						to creation. We oversee startups from ideation through to inception.
+					</p>
+
+					<p>
+						We actively explore optimal exit strategies for our founders,
+						harnessing the potential of mergers and acquisitions, stock sales,
+						or buyouts.
+					</p>
+				</div>
+			</div>
+
+			<div class="about__us-middle" data-aos="fade-up" data-aos-duration="1000">
+				<div class="about__us-middle-left">
+					<h3>Our Vision</h3>
+					<p>
+						Empowering startups with exceptional potential to ascend to the
+						summit, where they become irresistible to prominent Venture
+						Capitalists and Investors. Our vision is to nurture Unicorns,
+						setting new innovation, value, and impact benchmarks in the tech
+						ecosystem.
+					</p>
+				</div>
+				<div class="about__us-middle-right">
+					<h3>What Drives Us</h3>
+					<p>
+						Our relentless commitment to fostering innovation, propelling
+						visionary startups to their fullest potential, and catalyzing their
+						journey to unicorn status in the dynamic world of technology and
+						entrepreneurship. We are inspired by the transformative impact of
+						cutting-edge ideas and the thrill of creating transgenerational
+						success stories.
+					</p>
+				</div>
+			</div>
+
+			<div class="about__us-bottom">
+				<img src="img/about-bgImg.png" alt="" />
+			</div>
+		</section>
+		<!-- WHO ARE WE SECTION ENDS HERE -->
+
+		<!-- BELIEF SECTION -->
+		<div class="belief__container">
+			<div
+				class="belief__head-wrapper"
+				data-aos="zoom-in"
+				data-aos-duration="2000"
+			>
+				<p class="belief__heading-title">
+					Our <span class="belief__span">Beliefs</span>
+				</p>
+				<p class="belief__heading-text">
+					We are committed to delivering value that is community PROVEN
+				</p>
+			</div>
+
+			<div class="grid__belief">
+				<div
+					class="grid__belief-item"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+				>
+					<h3>Professionalism</h3>
+					<p>
+						By virtue of our expertise and seasoned professionalism, we impact a
+						life-changing quality
+					</p>
+				</div>
+				<div
+					class="grid__belief-item"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="200"
+				>
+					<h3>Responsibility</h3>
+					<p>Promptitude and Accountability are our mainstay!</p>
+				</div>
+				<div
+					class="grid__belief-item"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="400"
+				>
+					<h3>Open-Mindedness</h3>
+					<p>
+						No matter who we work with, we never stop creating, capturing, and
+						delivering value at 100%.
+					</p>
+				</div>
+				<div
+					class="grid__belief-item"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="600"
+				>
+					<h3>Value</h3>
+					<p>
+						No matter who we are working with, we never stop to create, capture
+						and deliver value at 100%
+					</p>
+				</div>
+				<div
+					class="grid__belief-item"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="800"
+				>
+					<h3>Equity</h3>
+					<p>
+						We are equitable, we believe everyone should get a fair share of any
+						business we work on
+					</p>
+				</div>
+				<div
+					class="grid__belief-item"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					data-aos-delay="1000"
+				>
+					<h3>New Ideas</h3>
+					<p>
+						We believe in enterprise and the spark of breakthrough ideas that is
+						driven by curiosity, innovation and technology.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- BELIEF SECTION ENDS HERE -->
+		<footer>
+			<div class="footer__contents">
+				<div class="footer__left">
+					<a href="#" class="logo">
+						<img src="img/footer-logo.png" alt="codar logo" class="logo-img" />
+					</a>
+
+					<div class="footer__address">
+						<h5 class="address__heading">offices</h5>
+						<p class="address__country">
+							Lagos, Nigeria
+							<img src="img/nigeria.png" alt="image" class="nigeria__img" />
+						</p>
+
+						<p class="address__location">
+							5 Eleruwa street, Wemabod Estate <br />
+							Ikeja 100271, Lagos
+						</p>
+
+						<p class="address__email">contact@kwe4.com</p>
+
+						<div class="address__icons">
+							<i class="fa-brands fa-linkedin-in"></i>
+							<i class="fa-brands fa-instagram"></i>
+							<i class="fa-brands fa-x-twitter"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__right">
+					<p class="subscribe">Subscribe to Our Newsletter</p>
+
+					<form class="footer__form">
+						<div class="form__text--input">
+							<input
+								type="text"
+								placeholder="First Name"
+								class="form__firstname"
+							/>
+							<input
+								type="text"
+								placeholder="Last Name"
+								class="form__lastname"
+							/>
+						</div>
+						<div class="form__email-wrapper">
+							<input
+								type="end"
+								placeholder="Enter Your Email"
+								class="form__email"
+							/>
+						</div>
+
+						<button class="form__btn">Subscribe</button>
+					</form>
+				</div>
+				<img src="img/stroke.svg" alt="stroke" class="footer-stroke" />
+			</div>
+
+			<p class="footer__copyright">
+				&copy; 2023 KWE4 AFRICA LTD. All Rights Reserved.
+			</p>
+		</footer>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				once: true,
+			});
+		</script>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no"
+		/>
+
+		<title>Codar Website - Portfolios Page</title>
+
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+		<!-- 
+            - CSS STYLESHEET LINK
+         -->
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/startups.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+
+		<!-- 
+            - FONT AWESOME CDN LINK
+         -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+			integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- 
+			 - FONT FAMILY - AVENIR
+		 -->
+		<link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<a href="#" class="logo">
+				<img src="img/header-logo.png" alt="codar logo" class="logo-img" />
+			</a>
+
+			<ul class="nav">
+				<li class="nav-list"><a href="index.html" class="nav-item">Home</a></li>
+				<li class="nav-list">
+					<a href="#" class="nav-item"
+						>Company <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__1">
+						<a href="aboutUs.html">About Us</a>
+						<a href="people.html">Our People</a>
+						<a href="career.html">Careers</a>
+					</div>
+				</li>
+				<li class="nav-list">
+					<a href="startups.html" class="nav-item">Startups</a>
+				</li>
+
+				<li class="nav-list">
+					<a href="#" class="nav-item"
+						>Apply <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__2">
+						<a href="mvp-studio2.html">Apply as Startups</a>
+						<a href="#">Apply as Founders</a>
+					</div>
+				</li>
+				<li class="nav-list">
+					<a href="#" class="nav-item">Community</a>
+				</li>
+				<li class="nav-list">
+					<a href="#" class="nav-item">Events</a>
+				</li>
+
+				<li class="nav-list">
+					<a href="#" class="nav-item">Blogs</a>
+				</li>
+			</ul>
+
+			<!-- NAV FOR SMALL SCREENS -->
+			<ul class="nav-mobile">
+				<li class="nav__mobile-list">
+					<a href="index.html" class="nav__mobile-item">Home</a>
+				</li>
+				<li class="nav__mobile-list menu-item-has-children">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu"
+						>Company <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__1">
+						<a href="aboutUs.html">About Us</a>
+						<a href="people.html">Our People</a>
+						<a href="career.html">Careers</a>
+					</div>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="startups.html" class="nav__mobile-item">Startups</a>
+				</li>
+
+				<li class="nav__mobile-list menu-item-has-children">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu"
+						>Apply <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__2">
+						<a href="mvp-studio2.html">Apply as Startups</a>
+						<a href="#">Apply as Founders</a>
+					</div>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="#" class="nav__mobile-item">Community</a>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu">Events</a>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu">Blogs</a>
+				</li>
+			</ul>
+
+			<div class="menubar">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+		</header>
+
+		<!-- PORTFOLIO HERO SECTION -->
+		<section class="hero-container">
+			<div class="hero__heading" data-aos="zoom-in" data-aos-duration="2000">
+				<img src="img/stroke.svg" alt="stroke image" class="hero-stroke" />
+				The startups that will change the world are within Africa and we are
+				builders
+			</div>
+
+			<div class="hero__img" data-aos="fade-right" data-aos-duration="2000">
+				<img src="img/portfolio-globe.png" alt="" />
+			</div>
+
+			<div
+				class="hero__position-img"
+				data-aos="fade-right"
+				data-aos-duration="2000"
+			>
+				<img src="img/porfolio-halfglobe.png" alt="" />
+			</div>
+		</section>
+		<section class="portfolio__container">
+			<p
+				class="portfolio__heading-text"
+				data-aos="zoom-in"
+				data-aos-duration="2000"
+			>
+				Our <span class="portfolio__span">Portfolio</span>
+			</p>
+			<div class="grid__portfolio">
+				<div class="portfolio" data-aos="fade-right" data-aos-duration="2000">
+					<div class="portfolio__logo">
+						<img src="img/Group 2608214.png" alt="" class="resela" />
+					</div>
+					<h5>Resela</h5>
+					<p class="portfolio__type">E-commerce</p>
+					<p class="portfolio__content">
+						Resela provides a seamless trading platform that incentivizes both
+						sellers and buyers to refer customers, offering rewards and
+						incentives in exchange for successful referrals.
+					</p>
+					<a href="#">Resela.com</a>
+				</div>
+
+				<div
+					class="portfolio center"
+					data-aos="fade-left"
+					data-aos-duration="2000"
+				>
+					<div class="portfolio__logo position-3">
+						<img src="img/Group 2608213.png" alt="" class="codar" />
+					</div>
+					<h5>Codar</h5>
+					<p class="portfolio__type">EdTech</p>
+					<p class="portfolio__content">
+						Codar is an AI-powered tech training institution dedicated to
+						closing the knowledge gap between technical expertise and technical
+						illiteracy in Africa. Codar looks to create inclusive, accessible
+						and sustainable tech education for all Africans.
+					</p>
+					<a href="#">Codarhq.com</a>
+				</div>
+
+				<div
+					class="portfolio"
+					data-aos="fade-right"
+					data-aos-duration="2000"
+					data-aos-delay="500"
+				>
+					<div class="portfolio__logo position-1">
+						<img src="img/xwork.png" alt="" class="xwork" />
+					</div>
+					<h5>Xwork</h5>
+					<p class="portfolio__type">JobTech</p>
+					<p class="portfolio__content">
+						Xwork is a pioneering JobTech platform that effortlessly links
+						service providers with employers. Offering a comprehensive catalog
+						of diverse job opportunities, it's the 'Digital Labour Market
+						on-the-go,' simplifying the way work meets talent.
+					</p>
+					<a href="#">Codarhq.com</a>
+				</div>
+
+				<div
+					class="portfolio center"
+					data-aos="fade-left"
+					data-aos-duration="2000"
+					data-aos-delay="500"
+				>
+					<div class="portfolio__logo">
+						<img src="img/shopay.png" class="shopay" alt="" />
+					</div>
+					<h5>Shopay</h5>
+					<p class="portfolio__type">E-Commerce</p>
+					<p class="portfolio__content">
+						Shopay possesses the potential to emerge as a premier E-commerce
+						platform, serving as the convenient rendezvous for buyers and
+						sellers of goods and products.
+					</p>
+					<a href="#">Codarhq.com</a>
+				</div>
+			</div>
+		</section>
+		<!-- PORTFOLIO HERO SECTION ENDS HERE -->
+
+		<footer>
+			<div class="footer__contents">
+				<div class="footer__left">
+					<a href="#" class="logo">
+						<img src="img/footer-logo.png" alt="codar logo" class="logo-img" />
+					</a>
+
+					<div class="footer__address">
+						<h5 class="address__heading">offices</h5>
+						<p class="address__country">
+							Lagos, Nigeria
+							<img src="img/nigeria.png" alt="image" class="nigeria__img" />
+						</p>
+
+						<p class="address__location">
+							5 Eleruwa street, Wemabod Estate <br />
+							Ikeja 100271, Lagos
+						</p>
+
+						<p class="address__email">contact@kwe4.com</p>
+
+						<div class="address__icons">
+							<i class="fa-brands fa-linkedin-in"></i>
+							<i class="fa-brands fa-instagram"></i>
+							<i class="fa-brands fa-x-twitter"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__right">
+					<p class="subscribe">Subscribe to Our Newsletter</p>
+
+					<form class="footer__form">
+						<div class="form__text--input">
+							<input
+								type="text"
+								placeholder="First Name"
+								class="form__firstname"
+							/>
+							<input
+								type="text"
+								placeholder="Last Name"
+								class="form__lastname"
+							/>
+						</div>
+						<div class="form__email-wrapper">
+							<input
+								type="end"
+								placeholder="Enter Your Email"
+								class="form__email"
+							/>
+						</div>
+
+						<button class="form__btn">Subscribe</button>
+					</form>
+				</div>
+				<img src="img/stroke.svg" alt="stroke" class="footer-stroke" />
+			</div>
+
+			<p class="footer__copyright">
+				&copy; 2023 KWE4 AFRICA LTD. All Rights Reserved.
+			</p>
+		</footer>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				once: true,
+			});
+		</script>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>

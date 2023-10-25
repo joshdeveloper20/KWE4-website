@@ -1,0 +1,661 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700;800&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Sen", sans-serif;
+}
+
+body {
+	background-color: #fff;
+	overflow-x: hidden;
+}
+
+img {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Rubik", sans-serif;
+}
+
+/* HERO SECTION */
+
+.hero-container {
+	background: #f6efe3;
+	height: 80vh;
+	display: flex;
+	position: relative;
+}
+
+.hero-globe {
+	position: absolute;
+	width: 200px;
+	height: 150px;
+	left: 30%;
+	top: 5%;
+	z-index: 2;
+}
+
+.hero-left {
+	padding: 0 5rem;
+	align-self: center;
+	flex-basis: 50%;
+	position: relative;
+	z-index: 3;
+}
+
+.hero-left .hero-stroke {
+	position: absolute;
+	width: 80px;
+	z-index: -1;
+	right: 20%;
+	top: 20%;
+}
+
+.hero-left h1 {
+	font-size: 6rem;
+	font-weight: 900;
+	margin-bottom: 1.5rem;
+	word-spacing: 1rem;
+}
+
+.hero-left p {
+	font-size: 2.5rem;
+	color: #2e2c2c;
+	margin-bottom: 2.5rem;
+	line-height: 1.6;
+}
+
+.hero-right {
+	flex-basis: 50%;
+	margin-left: auto;
+}
+
+.mvp__content-wrapper {
+	width: 900px;
+	padding: 5rem;
+}
+
+.mvp__content-wrapper p {
+	margin-bottom: 2rem;
+	font-size: 2.5rem;
+	font-weight: 300;
+	line-height: 1.7;
+}
+
+.mvp__connect {
+	margin-top: 12rem;
+	margin-bottom: 6rem;
+	position: relative;
+}
+
+.diagram {
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.diagram svg {
+	width: 100%;
+	height: 100%;
+}
+
+.build,
+.scale,
+.fund {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+}
+
+.build {
+	left: 45%;
+	top: -5%;
+}
+
+.scale {
+	left: 65%;
+	top: 35%;
+}
+
+.fund {
+	left: 45%;
+	bottom: -10%;
+}
+
+.mvp__img {
+	width: 100px;
+	height: 100px;
+}
+
+.text {
+	font-size: 2.5rem;
+	margin: 1rem 0;
+}
+
+.text + p {
+	word-spacing: 4px;
+	font-weight: 300;
+	line-height: 1.6;
+	font-size: 1.5rem;
+}
+
+.relative {
+	position: relative;
+}
+
+.fund-dollar {
+	position: absolute;
+	left: 40px;
+	top: 30px;
+	font-size: 35px;
+	font-weight: 300;
+}
+
+.roadmap__container {
+	background: #f6efe3;
+	padding: 5rem;
+	margin-top: 16rem;
+}
+
+.roadmap__heading-text {
+	font-size: 4rem;
+	text-align: center;
+	font-weight: 400;
+}
+
+.roadmap__span {
+	color: #0802a3;
+}
+
+.flex__roadmap-container {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 900px;
+	width: 100%;
+	margin: 6rem auto;
+	gap: 4rem;
+	justify-content: space-between;
+}
+
+.roadmap__item {
+	flex-basis: 300px;
+	flex-grow: 1;
+	padding: 0.5rem 1rem;
+	border-radius: 7px;
+	background-color: #fff;
+}
+
+.roadmap__item:last-child {
+	justify-items: center;
+}
+
+.roadmap__border {
+	border-radius: 7px;
+	border: 1px dashed #000;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.roadmap__border h3 {
+	font-size: 2rem;
+}
+
+.roadmap__border p {
+	font-size: 1.5rem;
+}
+
+.focus__container {
+	padding: 5rem;
+}
+
+.grid__focus-container {
+	display: grid;
+	place-content: center;
+	grid-template-columns: repeat(4, 200px);
+	grid-gap: 12rem 8rem;
+	margin-top: 4rem;
+}
+
+.focus__item {
+	display: grid;
+	place-items: center;
+	row-gap: 1rem;
+}
+
+.focus__item h4 {
+	font-size: 1.5rem;
+}
+
+.focus__content {
+	max-width: 600px;
+	width: 100%;
+	margin: 12rem auto 3rem;
+	text-align: center;
+}
+
+.focus__heading-text {
+	font-size: 3rem;
+}
+
+.focus__span {
+	color: #203ee8;
+}
+
+.focus__text {
+	font-weight: 300;
+	margin-block: 1rem;
+	line-height: 1.5;
+	font-size: 1.8rem;
+}
+
+.focus__link {
+	background-color: #203ee8;
+	color: #fff;
+	padding: 1rem 2rem;
+	width: 150px;
+	margin: 0 auto;
+	border-radius: 5px;
+	font-size: 1.8rem;
+}
+
+@media screen and (max-width: 576px) {
+	.hero-container {
+		flex-direction: column-reverse;
+		height: initial;
+		padding: 2rem 1rem;
+	}
+
+	.hero-globe {
+		display: none;
+	}
+
+	.hero-left {
+		padding: 0 0rem;
+		align-self: initial;
+		/* max-width: 400px; */
+	}
+
+	.hero-left h1 {
+		font-size: 3.5rem;
+		margin-top: 1.5rem;
+	}
+
+	.hero-left p {
+		font-size: 1.8rem;
+	}
+
+	.hero-right {
+		height: 300px;
+		width: 100%;
+	}
+
+	.hero-right img {
+		height: 400px;
+	}
+
+	.mvp__content-wrapper {
+		max-width: 500px;
+		width: 100%;
+		padding: 3rem 2rem;
+	}
+
+	.mvp__content-wrapper p {
+		margin-bottom: 2rem;
+		font-size: 1.5rem;
+		font-weight: 300;
+		line-height: 1.5;
+	}
+
+	.mvp__connect {
+		margin-top: 3rem;
+		margin-bottom: 6rem;
+		position: static;
+
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		padding: 0 2rem;
+		gap: 2rem;
+	}
+
+	.diagram {
+		display: none;
+	}
+
+	.build,
+	.scale,
+	.fund {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 2rem;
+		position: static;
+		flex-grow: 1;
+	}
+
+	.fund-dollar {
+		position: absolute;
+		left: 30px;
+		top: 20px;
+		font-size: 35px;
+		font-weight: 300;
+	}
+
+	.mvp__img {
+		width: 70px;
+		height: 70px;
+	}
+
+	.text {
+		font-size: 1.5rem;
+		margin: 0.5rem 0;
+	}
+
+	.text + p {
+		word-spacing: 0px;
+	}
+
+	.roadmap__container {
+		background: #f6efe3;
+		padding: 3rem 2rem;
+		margin-top: 6rem;
+	}
+
+	.roadmap__heading-text {
+		font-size: 2.5rem;
+		text-align: center;
+		font-weight: 400;
+	}
+
+	.roadmap__border h3 {
+		font-size: 1.8rem;
+	}
+
+	.roadmap__border p {
+		font-size: 1.5rem;
+	}
+
+	.focus__container {
+		padding: 5rem 2rem;
+	}
+
+	.grid__focus-container {
+		display: grid;
+		place-content: center;
+		grid-template-columns: repeat(2, 120px);
+		grid-gap: 4rem;
+	}
+
+	.focus__content {
+		margin: 6rem auto 2rem;
+	}
+
+	.focus__heading-text {
+		font-size: 1.8rem;
+	}
+
+	.focus__span {
+		color: #203ee8;
+	}
+
+	.focus__text {
+		font-size: 1.5rem;
+	}
+
+	.focus__link {
+		padding: 1rem;
+		width: 120px;
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+	.hero-container {
+		height: 60vh;
+	}
+
+	.hero-globe {
+		display: none;
+	}
+
+	.hero-left {
+		padding: 5rem 2rem;
+	}
+
+	.hero-left h1 {
+		font-size: 3rem;
+	}
+
+	.hero-left p {
+		font-size: 1.5rem;
+		margin-bottom: 2rem;
+		line-height: 1.5;
+	}
+	.mvp__content-wrapper {
+		max-width: 500px;
+		width: 100%;
+		padding: 3rem 2rem;
+	}
+
+	.mvp__content-wrapper p {
+		margin-bottom: 2rem;
+		font-size: 1.5rem;
+		font-weight: 300;
+		line-height: 1.5;
+	}
+
+	.mvp__connect {
+		margin-top: 3rem;
+		margin-bottom: 6rem;
+		position: static;
+
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		padding: 0 2rem;
+		gap: 2rem;
+	}
+
+	.diagram {
+		display: none;
+	}
+
+	.build,
+	.scale,
+	.fund {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 2rem;
+		position: static;
+		flex-grow: 1;
+	}
+
+	.mvp__img {
+		width: 80px;
+		height: 80px;
+	}
+
+	.text {
+		font-size: 1.5rem;
+		margin: 0.5rem 0;
+	}
+
+	.text + p {
+		word-spacing: 0px;
+	}
+
+	.roadmap__heading-text {
+		font-size: 3rem;
+	}
+
+	.roadmap__border h3 {
+		font-size: 1.8rem;
+	}
+
+	.roadmap__border p {
+		font-size: 1.5rem;
+	}
+
+	.grid__focus-container {
+		display: grid;
+		place-content: center;
+		grid-template-columns: repeat(3, 150px);
+		grid-gap: 4rem;
+	}
+
+	.focus__content {
+		max-width: 400px;
+		width: 100%;
+		margin: 9rem auto 3rem;
+		text-align: center;
+	}
+
+	.focus__heading-text {
+		font-size: 2rem;
+	}
+
+	.focus__span {
+		color: #203ee8;
+	}
+
+	.focus__link {
+		width: 120px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.hero-container {
+		height: 60vh;
+	}
+
+	.hero-left {
+		padding-left: 3rem;
+	}
+
+	.hero-left h1 {
+		font-size: 4rem;
+		margin-bottom: 1rem;
+	}
+
+	.hero-left p {
+		font-size: 1.8rem;
+		margin-bottom: 2rem;
+		line-height: 1.5;
+	}
+
+	.mvp__content-wrapper p {
+		font-size: 2rem;
+	}
+
+	.mvp__connect {
+		margin-top: 9rem;
+		margin-bottom: 6rem;
+		position: relative;
+	}
+
+	.diagram {
+		display: block;
+		max-width: 500px;
+		height: 600px;
+		margin: 0 auto;
+	}
+
+	.diagram svg {
+		width: 100%;
+		height: 100%;
+	}
+
+	.build,
+	.scale,
+	.fund {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+	}
+
+	.build {
+		left: 40%;
+		top: 0%;
+	}
+
+	.scale {
+		left: 65%;
+		top: 35%;
+	}
+
+	.fund {
+		left: 45%;
+		bottom: -5%;
+	}
+
+	.mvp__img {
+		width: 80px;
+		height: 80px;
+	}
+
+	.text {
+		font-size: 2.5rem;
+		margin: 1rem 0;
+	}
+
+	.text + p {
+		word-spacing: 4px;
+		font-weight: 300;
+		line-height: 1.6;
+	}
+
+	.relative {
+		position: relative;
+	}
+
+	.fund-dollar {
+		position: absolute;
+		left: 30px;
+		top: 20px;
+		font-size: 35px;
+		font-weight: 300;
+	}
+
+	.grid__focus-container {
+		display: grid;
+		place-content: center;
+		grid-template-columns: repeat(3, 150px);
+		grid-gap: 12rem 8rem;
+		margin-top: 4rem;
+	}
+
+	.focus__heading-text {
+		font-size: 2.5rem;
+	}
+
+	.focus__text {
+		font-weight: 300;
+		margin-block: 1rem;
+		line-height: 1.5;
+		font-size: 1.8rem;
+	}
+}

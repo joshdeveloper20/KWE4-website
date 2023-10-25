@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BUILD PAGE</title>
+
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/form.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+			integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<header>
+			<a href="#" class="logo">
+				<img src="img/header-logo.png" alt="codar logo" class="logo-img" />
+			</a>
+
+			<ul class="nav">
+				<li class="nav-list"><a href="index.html" class="nav-item">Home</a></li>
+				<li class="nav-list">
+					<a href="#" class="nav-item"
+						>Company <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__1">
+						<a href="aboutUs.html">About Us</a>
+						<a href="people.html">Our People</a>
+						<a href="career.html">Careers</a>
+					</div>
+				</li>
+				<li class="nav-list">
+					<a href="startups.html" class="nav-item">Startups</a>
+				</li>
+
+				<li class="nav-list">
+					<a href="#" class="nav-item"
+						>Apply <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__2">
+						<a href="mvp-studio2.html">Apply as Startups</a>
+						<a href="#">Apply as Founders</a>
+					</div>
+				</li>
+				<li class="nav-list">
+					<a href="#" class="nav-item">Community</a>
+				</li>
+				<li class="nav-list">
+					<a href="#" class="nav-item">Events</a>
+				</li>
+
+				<li class="nav-list">
+					<a href="#" class="nav-item">Blogs</a>
+				</li>
+			</ul>
+
+			<!-- NAV FOR SMALL SCREENS -->
+			<ul class="nav-mobile">
+				<li class="nav__mobile-list">
+					<a href="index.html" class="nav__mobile-item">Home</a>
+				</li>
+				<li class="nav__mobile-list menu-item-has-children">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu"
+						>Company <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__1">
+						<a href="aboutUs.html">About Us</a>
+						<a href="people.html">Our People</a>
+						<a href="career.html">Careers</a>
+					</div>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="startups.html" class="nav__mobile-item">Startups</a>
+				</li>
+
+				<li class="nav__mobile-list menu-item-has-children">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu"
+						>Apply <i class="fa-solid fa-caret-down"></i
+					></a>
+
+					<div class="submenu submenu__2">
+						<a href="mvp-studio2.html">Apply as Startups</a>
+						<a href="#">Apply as Founders</a>
+					</div>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="#" class="nav__mobile-item">Community</a>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu">Events</a>
+				</li>
+				<li class="nav__mobile-list">
+					<a href="#" class="nav__mobile-item" data-toggle="submenu">Blogs</a>
+				</li>
+			</ul>
+
+			<div class="menubar">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+		</header>
+		<section class="hero-container">
+			<h1 class="form__header-text" data-aos="zoom-in" data-aos-duration="2000">
+				Build <span>With</span> Us
+			</h1>
+		</section>
+
+		<section class="form__section">
+			<div class="form__container">
+				<form>
+					<input type="text" placeholder="First Name" class="firstname" />
+					<input type="text" placeholder="Last Name" class="lastname" />
+
+					<input type="end" placeholder="Enter Your Email" class="email" />
+
+					<textarea
+						name=""
+						id=""
+						cols="30"
+						rows="10"
+						placeholder="Leave a message"
+					></textarea>
+					<button class="submit__btn">Submit</button>
+				</form>
+			</div>
+		</section>
+		<footer>
+			<div class="footer__contents">
+				<div class="footer__left">
+					<a href="#" class="logo">
+						<img src="img/footer-logo.png" alt="codar logo" class="logo-img" />
+					</a>
+
+					<div class="footer__address">
+						<h5 class="address__heading">offices</h5>
+						<p class="address__country">
+							Lagos, Nigeria
+							<img src="img/nigeria.png" alt="image" class="nigeria__img" />
+						</p>
+
+						<p class="address__location">
+							5 Eleruwa street, Wemabod Estate <br />
+							Ikeja 100271, Lagos
+						</p>
+
+						<p class="address__email">contact@kwe4.com</p>
+
+						<div class="address__icons">
+							<i class="fa-brands fa-linkedin-in"></i>
+							<i class="fa-brands fa-instagram"></i>
+							<i class="fa-brands fa-x-twitter"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__right">
+					<p class="subscribe">Subscribe to Our Newsletter</p>
+
+					<form class="footer__form">
+						<div class="form__text--input">
+							<input
+								type="text"
+								placeholder="First Name"
+								class="form__firstname"
+							/>
+							<input
+								type="text"
+								placeholder="Last Name"
+								class="form__lastname"
+							/>
+						</div>
+						<div class="form__email-wrapper">
+							<input
+								type="end"
+								placeholder="Enter Your Email"
+								class="form__email"
+							/>
+						</div>
+
+						<button class="form__btn">Subscribe</button>
+					</form>
+				</div>
+				<img src="img/stroke.svg" alt="stroke" class="footer-stroke" />
+			</div>
+
+			<p class="footer__copyright">
+				&copy; 2023 KWE4 AFRICA LTD. All Rights Reserved.
+			</p>
+		</footer>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				once: true,
+			});
+		</script>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+	font-family: "Lato", sans-serif;
+}
+
+footer {
+	background: linear-gradient(
+		182deg,
+		#203ee8 1.93%,
+		rgba(32, 62, 232, 0) 340.03%
+	);
+	padding: 5rem 5rem 2rem;
+	width: 100%;
+	z-index: 6;
+}
+
+.footer__contents {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 5rem;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.footer__left {
+	margin-top: 4rem;
+}
+
+footer .logo-word {
+	color: #fff;
+	font-family: Lato;
+	font-size: 30.06px;
+	font-style: normal;
+	font-weight: 900;
+}
+
+.address__heading {
+	color: #ffee59;
+	font-size: 1.8rem;
+	font-weight: 700;
+	margin-top: 4rem;
+	margin-bottom: 1rem;
+	letter-spacing: 1.5px;
+}
+
+.address__country {
+	font-size: 2rem;
+	font-weight: 500;
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
+
+.nigeria__img {
+	width: 20px;
+	height: 20px;
+	margin-left: 0.7rem;
+}
+
+.address__location {
+	color: #fff;
+	font-weight: 300;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	line-height: 1.6;
+	font-size: 1.5rem;
+}
+
+.address__email {
+	color: #fff;
+	margin-bottom: 2rem;
+	font-weight: 900;
+	font-size: 1.5rem;
+}
+
+.address__icons {
+	color: #fff;
+	font-size: 1.5rem;
+	display: flex;
+	gap: 0.7rem;
+}
+
+.address__icons i {
+	cursor: pointer;
+}
+
+.subscribe {
+	color: #fff;
+	font-size: 2rem;
+	word-spacing: 5px;
+	font-weight: 400;
+	margin-bottom: 2rem;
+}
+
+.footer__right {
+	position: relative;
+}
+
+.footer__form {
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+}
+
+.form__text--input,
+.form__email-wrapper {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+}
+
+.form__firstname,
+.form__lastname {
+	flex-basis: 48%;
+}
+
+.form__firstname,
+.form__lastname,
+.form__email {
+	border: none;
+	outline: none;
+	padding: 1.5rem 1rem;
+	border-radius: 5px;
+}
+
+.form__firstname::placeholder,
+.form__lastname::placeholder,
+.form__email::placeholder {
+	font-size: 1.2rem;
+}
+
+.form__email {
+	flex-basis: 100%;
+}
+
+.form__btn {
+	border-radius: 7px;
+	border: 2px solid #ffee59;
+	background: transparent;
+	width: 150px;
+	padding: 1rem;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.form__btn:hover {
+	background: #ffee59;
+	color: #fff;
+}
+
+.footer-stroke {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	right: 10%;
+	bottom: 0;
+}
+
+.footer__copyright {
+	color: #fff;
+	margin-top: 1rem;
+	font-size: 1.5rem;
+}
+
+@media screen and (max-width: 576px) {
+	footer {
+		padding: 5rem 2rem 2rem;
+	}
+
+	.footer__contents {
+		flex-direction: column;
+	}
+
+	.footer__left {
+		margin-top: 2rem;
+		margin-bottom: 3rem;
+	}
+
+	.footer__form {
+		max-width: 400px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.form__text--input,
+	.form__email-wrapper {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-bottom: 2rem;
+		gap: 2rem;
+	}
+
+	.form__firstname,
+	.form__lastname {
+		flex-basis: 40%;
+		flex-grow: 1;
+	}
+
+	.form__firstname,
+	.form__lastname,
+	.form__email {
+		border: none;
+		outline: none;
+		padding: 2rem 1rem;
+		border-radius: 5px;
+	}
+
+	.form__firstname::placeholder,
+	.form__lastname::placeholder,
+	.form__email::placeholder {
+		font-size: 1.5rem;
+	}
+
+	.form__email {
+		flex-basis: 100%;
+	}
+
+	.form__btn {
+		border-radius: 7px;
+		border: 2px solid #ffee59;
+		background: transparent;
+		/* width: 200px; */
+		padding: 1rem 2rem;
+		color: #fff;
+		cursor: pointer;
+	}
+
+	.footer-stroke {
+		width: 60px;
+		height: 60px;
+		position: absolute;
+		right: 10%;
+	}
+
+	.footer__copyright {
+		font-size: 1.3rem;
+	}
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+	footer {
+		padding: 5rem 2rem 4rem;
+		z-index: 999;
+	}
+
+	.footer__left {
+		margin-top: 0;
+	}
+
+	.footer__form {
+		max-width: 300px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.form__text--input {
+		gap: 1rem;
+	}
+
+	.form__firstname,
+	.form__lastname {
+		flex-basis: 50%;
+		flex-grow: 1;
+	}
+
+	.footer__copyright {
+		font-size: 1.3rem;
+	}
+
+	.footer-stroke {
+		width: 60px;
+		height: 60px;
+		position: absolute;
+		right: 10%;
+	}
+}
